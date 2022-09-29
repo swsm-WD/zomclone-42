@@ -13,7 +13,7 @@ function SearchPage() {
 
   let getFilterDetails = async (_filter) => {
     _filter = { ..._filter };
-    let URL = "http://localhost:4000/api/filter";
+    let URL = "https://zomato-clone-sm.netlify.appsm.netlify.app/api/filter";
 
     //filter
     if (searchParams.get("meal_type"))
@@ -30,7 +30,7 @@ function SearchPage() {
   };
 
   let getLocationList = async () => {
-    let URL = "http://localhost:4000/api/get-location";
+    let URL = "https://zomato-clone-sm.netlify.app/api/get-location";
     try {
       let response = await axios.get(URL);
       let data = response.data;
