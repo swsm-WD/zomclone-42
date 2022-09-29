@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.logo .icon{
+    margin-left: 30px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    background: #ffffff;
+    color: #eb2929;
+    border-radius: 50%;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+button{
+    text-decoration: none;
+    outline: none;
+    border: transparent;
+}
+button:hover{
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+.navbar{
+    background: crimson;
+}
+#login ,#register{
+    color: white;
+    font-size: 1.1em;
+}
+#register{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.navbar-toggler{
+    color: white;
+}

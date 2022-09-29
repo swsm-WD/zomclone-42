@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+
+body{
+    background-color: #f3f6ff;
+}
+
+.quicksearch_header h1{
+    color: #192f60;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px #1d34688f;
+}
+.quicksearch_header p{
+    color: #b2b8c6;
+    font-weight: 500;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 1px #b2b8c6;
+}
+.item_image img{
+    height: 100%;
+    width: 100%;
+}
+.qs_card{
+    border: transparent;
+    border-radius: 0%;
+    box-shadow: 1px 3px 6px 1px rgba(0, 0, 0, 0.212);
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+.qs_card:hover{
+    transform: scale(1.04);
+}
+.qs_card-body h5{
+    color: #192f60;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px #1d34688f;
+}
+.qs_card-body p{
+    color: #b2b8c6;
+    text-shadow: 1px 1px 1px #b2b8c6;
+}
+.item_link:hover{
+    text-decoration: none;
+}
+
+
+@media screen and (min-width:250px){
+    .quicksearch_section{
+        margin: 30px 10px;
+        padding: 0;
+    }
+    .quicksearch_header h1{
+        font-size: 1.6em;
+    }
+    .quicksearch_header p{
+        font-size: .8em;
+    }
+}
+
+@media screen and (min-width:500px){
+    .quicksearch_section{
+        margin-left: 50px;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width:800px){
+    .quicksearch_section{
+        margin-left: 70px;
+        margin-bottom: 130px;
+        padding: 50px;
+    } 
+    .quicksearch_header h1{
+        font-size: 2.3em;
+    }
+    .quicksearch_header p{
+        font-size: 1.1em;
+    }
+}
+

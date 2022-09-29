@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@811&display=swap');
+
+
+.order_banner{
+
+    background-image: linear-gradient(270deg, rgba(0,0,0,0.808000700280112) 0%, rgba(0,0,0,0.808000700280112) 83%),url('https://i.pinimg.com/originals/0f/38/b1/0f38b14b6e09d9d7ec5a19a259b5e7e2.jpg');
+    text-align: center;
+    padding: 150px 60px;
+    margin-bottom: 100px;
+}
+.order_banner-info-links{
+    /* font-family: 'Lobster', cursive; */
+    letter-spacing: .1em;
+    font-size: 1.4em;
+}
+.order-container{
+    margin-bottom: 200px;
+}
+#pyo{
+    color: crimson;
+}
+#home-link{
+    color: white;
+    transition: all .3s ease;
+}
+#home-link:hover{
+    text-decoration: none;
+    color: crimson;
+}
+#order-heading{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    letter-spacing: .1em;
+    font-size: 2.4em;
+}
+.card-order-body{
+    background-color: transparent;
+    border: none;
+    border-radius: 0%;
+}
+.order-form{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid rgba(199, 188, 188, 0.7);
+    border-radius: 0%;
+}
+.order-form::placeholder{
+    text-align: left;
+}
+#order-form-read{
+    background: transparent;
+}
+.order-form:focus{
+    background-color: transparent;
+    border-bottom: 1px solid rgba(199, 188, 188, 0.7);
+    border: none;
+    box-shadow: none;
+}
+.order-icon{
+    color: crimson;
+    font-size: 20px;
+}

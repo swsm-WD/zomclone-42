@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+.banner_section{
+    background-image:linear-gradient(180deg, rgba(247,77,77,0) 42%, rgba(41,14,9,0.7231267507002801) 71%), url('/public/images/homebanner.png');
+    padding:40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner_section .logo{
+    margin-top:5%;
+
+}
+.banner_section .logo .icon{
+    margin: auto;
+    height: 130px;
+    width: 130px;
+    line-height: 130px;
+    background: #ffffff;
+    color: #eb2929;
+    border-radius: 50%;
+    font-size: 4em;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+
+}
+.banner_section .header{
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0 0 2px #ffffff;
+    font-weight: bolder;
+    font-family: 'Lobster', cursive;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.banner_section .header h3{
+    font-size: 4em; 
+}
+#location_search_select{
+    height: 70px;
+    width: 100%;
+    border-radius: 0;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+#location_search_select:hover{
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+#restaurent_search_select{
+    height: 70px;
+    width: 100%;
+    border-radius: 0;
+    outline: none;
+    text-align: center;
+}
+
+#restaurent_search_select:hover{
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:250px){
+    .banner_section{
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 10px;
+    }
+    .banner_section .logo .icon{
+        height: 80px;
+        width: 80px;
+        line-height: 80px;
+        border-radius: 50%;
+        font-size: 2em;
+    }
+    .banner_section .header h3{
+        font-size: 2em;
+    }
+    #location_search_select,#restaurent_search_select{
+        height: 60px;
+        width: 100%;
+        color: #192f60a2;
+        font-weight: bold;
+        border-radius: 0;
+        margin: 10px 0;
+    }
+    
+    
+}
+
+
+
+@media screen and (min-width:800px){
+    .banner_section .header h3{
+        font-size: 3em;
+    }
+    .quicksearch_section{
+        margin-left: 10%;
+        margin-right: 5%;
+    }
+    #location_search_select,#restaurent_search_select{
+        height: 70px;
+        width:100%;
+    }
+}
+
+
+@media screen and (min-width:900px){
+    .banner_section{
+        padding:40px
+    }
+    .banner_section .header h3{
+        font-size: 4em;
+    }
+    .banner_section .logo .icon{
+        height: 130px;
+        width: 130px;
+        line-height: 130px;
+        font-size: 4em;
+    }
+}
